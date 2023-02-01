@@ -1,0 +1,8 @@
+E-T R
+R-+ T R
+R-#
+T-F Y
+Y-* F Y
+Y-#
+F-( E )
+F-i

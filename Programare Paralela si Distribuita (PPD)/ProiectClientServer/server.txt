@@ -1,0 +1,12 @@
+# Nr threads
+10
+# Nr locatii
+5
+# Nr tratamente
+5
+# Cost tratamente
+50 20 40 100 30
+# Durata tratamente
+120 20 30 60 30
+# Nr maxim clienti per tratament - prima locatie
+3 1 1 2 1

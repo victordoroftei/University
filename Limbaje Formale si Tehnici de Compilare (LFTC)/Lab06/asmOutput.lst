@@ -1,0 +1,96 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit
+     5                                  import exit msvcrt.dll
+     6                                  extern scanf
+     7                                  import scanf msvcrt.dll
+     8                                  extern printf
+     9                                  import printf msvcrt.dll
+    10                                  extern printf
+    11                                  import printf msvcrt.dll
+    12                                  
+    13                                  segment data use32 class=data
+    14 00000000 00<rept>                	b times 4 db 0
+    15 00000004 00<rept>                	a times 4 db 0
+    16 00000008 00<rept>                	e times 4 db 0
+    17 0000000C 00<rept>                	d times 4 db 0
+    18 00000010 00<rept>                	c times 4 db 0
+    19 00000014 256400                  	format db "%d", 0
+    20 00000017 0A00                    	newline db 10, 0
+    21                                  
+    22                                  segment code use32 class=code
+    23                                  	start:
+    24                                  
+    25                                  
+    26 00000000 68[04000000]            PUSH dword a
+    27 00000005 68[14000000]            PUSH dword format
+    28 0000000A FF15[00000000]          CALL [scanf]
+    29 00000010 83C408                  ADD ESP, 4 * 2
+    30                                  
+    31                                  
+    32 00000013 68[17000000]            PUSH dword newline
+    33 00000018 FF15[00000000]          CALL [printf]
+    34 0000001E 83C404                  ADD ESP, 4 * 1
+    35                                  
+    36                                  
+    37 00000021 68[00000000]            PUSH dword b
+    38 00000026 68[14000000]            PUSH dword format
+    39 0000002B FF15[00000000]          CALL [scanf]
+    40 00000031 83C408                  ADD ESP, 4 * 2
+    41                                  
+    42                                  
+    43 00000034 68[17000000]            PUSH dword newline
+    44 00000039 FF15[00000000]          CALL [printf]
+    45 0000003F 83C404                  ADD ESP, 4 * 1
+    46                                  
+    47                                  
+    48 00000042 A0[04000000]            MOV AL, [a]
+    49 00000047 8A1D[00000000]          MOV BL, [b]
+    50 0000004D 00D8                    ADD AL, BL
+    51 0000004F A2[10000000]            MOV [c], AL
+    52                                  
+    53 00000054 A0[04000000]            MOV AL, [a]
+    54 00000059 8A1D[00000000]          MOV BL, [b]
+    55 0000005F 28D8                    SUB AL, BL
+    56 00000061 A2[0C000000]            MOV [d], AL
+    57                                  
+    58 00000066 A0[04000000]            MOV AL, [a]
+    59 0000006B F625[00000000]          MUL byte [b]
+    60 00000071 66A3[08000000]          MOV [e], AX
+    61                                  
+    62 00000077 FF35[10000000]          PUSH dword [c]
+    63 0000007D 68[14000000]            PUSH dword format
+    64 00000082 FF15[00000000]          CALL [printf]
+    65 00000088 83C408                  ADD ESP, 4 * 2
+    66                                  
+    67                                  
+    68 0000008B 68[17000000]            PUSH dword newline
+    69 00000090 FF15[00000000]          CALL [printf]
+    70 00000096 83C404                  ADD ESP, 4 * 1
+    71                                  
+    72                                  
+    73 00000099 FF35[0C000000]          PUSH dword [d]
+    74 0000009F 68[14000000]            PUSH dword format
+    75 000000A4 FF15[00000000]          CALL [printf]
+    76 000000AA 83C408                  ADD ESP, 4 * 2
+    77                                  
+    78                                  
+    79 000000AD 68[17000000]            PUSH dword newline
+    80 000000B2 FF15[00000000]          CALL [printf]
+    81 000000B8 83C404                  ADD ESP, 4 * 1
+    82                                  
+    83                                  
+    84 000000BB FF35[08000000]          PUSH dword [e]
+    85 000000C1 68[14000000]            PUSH dword format
+    86 000000C6 FF15[00000000]          CALL [printf]
+    87 000000CC 83C408                  ADD ESP, 4 * 2
+    88                                  
+    89                                  
+    90 000000CF 68[17000000]            PUSH dword newline
+    91 000000D4 FF15[00000000]          CALL [printf]
+    92 000000DA 83C404                  ADD ESP, 4 * 1
+    93                                  
+    94                                  
+    95 000000DD 6A00                    PUSH dword 0
+    96 000000DF FF15[00000000]          CALL [exit]

@@ -1,0 +1,11 @@
+structura:
+
+%{
+    Header
+%}
+
+%token ID <-> DEFINE MACRO in C
+
+%%
+expr: ID op ID
+op: '+' | '-'

@@ -1,0 +1,8 @@
+﻿  main.cpp
+E:\__Teme\Programare Paralela si Distribuita (PPD)\Lab1_CPP_Static\Lab1_CPP_Static\main.cpp(178,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  2 of 216 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Lab1_CPP_Static.vcxproj -> E:\__Teme\Programare Paralela si Distribuita (PPD)\Lab1_CPP_Static\x64\Release\Lab1_CPP_Static.exe

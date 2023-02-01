@@ -1,0 +1,54 @@
+program
+program-4 25 26 27 bloc_instructiuni 28
+bloc_instructiuni-instructiune bloc_instructiuni
+bloc_instructiuni-instructiune
+instructiune-instructiune_declarativa 29
+instructiune-instructiune_atriburire 29
+instructiune-instructiune_input_output 29
+instructiune-instructiune_conditionala
+instructiune-instructiune_ciclare
+instructiune-instructiune_cattimp
+instructiune_declarativa-tip lista_variabile
+tip-tip_clasic
+tip-tip_complex
+tip_clasic-2
+tip_clasic-3
+tip_complex-10 0 27 bloc_instructiuni_declarative 28
+bloc_instructiuni_declarative-instructiune_declarativa 29
+bloc_instructiuni_declarative-instructiune_declarativa 29 bloc_instructiuni_declarative
+id-0
+lista_variabile-variabila_generala
+lista_variabile-variabila_generala 30 lista_variabile
+variabila_generala-id
+variabila_generala-id 24 expresie
+expresie-termen operator_aritmetic expresie
+expresie-termen
+termen-id
+termen-1
+operator_aritmetic-13
+operator_aritmetic-14
+operator_aritmetic-15
+operator_aritmetic-16
+operator_aritmetic-17
+instructiune_atriburire-id 24 expresie
+instructiune_input_output-instructiune_input
+instructiune_input_output-instructiune_output
+instructiune_input-8 11 id
+instructiune_output-9 12 id
+instructiune_output-9 12 1
+instructiune_conditionala-instructiune_conditionala_if
+instructiune_conditionala-instructiune_conditionala_else
+instructiune_conditionala_if-5 25 expresie_booleana 26 27 bloc_instructiuni 28
+instructiune_conditionala_else-instructiune_conditionala_if 6 27 bloc_instructiuni 28
+expresie_booleana-expresie_relationala
+expresie_booleana-expresie_relationala operator_bool expresie_booleana
+expresie_relationala-expresie operator_relational expresie
+expresie_relationala-expresie
+operator_relational-20
+operator_relational-21
+operator_relational-23
+operator_relational-22
+operator_bool-18
+operator_bool-19
+instructiune_ciclare-7 25 expresie_booleana 26 27 bloc_instructiuni 28
+instructiune_cattimp-31 25 id 26 32 bloc_instructiuni 33

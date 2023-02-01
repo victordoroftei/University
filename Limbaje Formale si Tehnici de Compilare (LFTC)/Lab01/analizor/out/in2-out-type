@@ -1,0 +1,22 @@
+main ~~~ Keyword
+( ~~~ Separator
+) ~~~ Separator
+{ ~~~ Separator
+int ~~~ Keyword
+x ~~~ ID
+= ~~~ Algebraic Operator
+60 ~~~ CONST
+, ~~~ Separator
+y ~~~ ID
+25 ~~~ CONST
+; ~~~ Separator
+while ~~~ Keyword
+!= ~~~ Relational Operator
+if ~~~ Keyword
+> ~~~ Relational Operator
+- ~~~ Algebraic Operator
+} ~~~ Separator
+else ~~~ Keyword
+printf ~~~ Keyword
+"CMMDC " ~~~ CONST
+%d ~~~ Keyword

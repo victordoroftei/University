@@ -1,0 +1,4 @@
+Tabela de Simboluri:
+(3; 1002)
+(a; 1000)
+(b; 1001)

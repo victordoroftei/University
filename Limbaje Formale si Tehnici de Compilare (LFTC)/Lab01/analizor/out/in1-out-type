@@ -1,0 +1,20 @@
+main ~~~ Keyword
+( ~~~ Separator
+) ~~~ Separator
+{ ~~~ Separator
+int ~~~ Keyword
+r ~~~ ID
+= ~~~ Algebraic Operator
+5 ~~~ CONST
+; ~~~ Separator
+float ~~~ Keyword
+a ~~~ ID
+3.1415 ~~~ CONST
+* ~~~ Algebraic Operator
+printf ~~~ Keyword
+"Aria " ~~~ CONST
+%f ~~~ Keyword
+p ~~~ ID
+2 ~~~ CONST
+", Perimetrul " ~~~ CONST
+} ~~~ Separator

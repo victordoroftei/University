@@ -1,0 +1,62 @@
+<fisier> ::= <lista_stari> <lista_tranzitii>
+
+<lista_stari> ::= <stare> ',' <lista_stari> | <stare> ';'
+
+<stare> ::= <stare_initiala> | <stare_finala> | <stare_initiala_finala> | <stare_normala>
+
+<stare_initiala> ::= 'i' <nume_stare>           (i = initiala)
+<stare_finala> ::= 'f' <nume_stare>             (f = finala)
+<stare_initiala_finala> ::= 'a' <nume_stare>    (a = ambele)
+<stare_normala> ::= <nume_stare>
+
+<nume_stare> ::= 'A' | 'B' | ... | 'Z'
+
+<lista_tranzitii> ::= <tranzitie> ';' <lista_tranzitii> | <tranzitie>
+
+<tranzitie> ::= <stare> '?' <stare> '?' <lista_reguli>
+
+<lista_reguli> ::= <regula> ',' | <regula> <lista_reguli>
+<regula> ::= 'a' | 'b' | ... | 'z' | 'A' | 'B' | ... | 'Z' | '1' | '2' | ... | '9' | '+' | '-' | '.' | '|' | '!' | '<' | '>' | '"' | '=' | '&'
+
+====================================================================================================
+
+https://en.cppreference.com/w/cpp/language/integer_literal
+
+<const_int> ::= '0' | <non_zero>
+<non_zero> ::= <semn> <const_dec> | <const_oct> | <const_hex> | <const_bin>
+
+<semn> ::=  '+' | '-' | eps
+<const_dec> ::= [1-9] [0-9]* [uU]? [lL]? [lL]?
+<const_oct> ::= '0' [0-7]* [uU]? [lL]? [lL]?
+<const_hex> ::= '0' [xX] [0-9a-fA-F]+ [uU]? [lL]? [lL]?
+<const_bin> ::= '0' [bB] [01]+ [uU]? [lL]? [lL]?
+
+====================================================================================================
+
+https://learn.microsoft.com/en-us/cpp/c-language/c-floating-point-constants?view=msvc-170
+https://www.ibm.com/docs/en/zos/2.4.0?topic=literals-floating-point
+
+
+<floating-point-constant> ::=   <sign>? <fractional-constant> <exponent-part>? <floating-suffix>? |
+                                <sign>? <digit-sequence> <exponent-part> <floating-suffix>?
+
+<fractional-constant> ::= <digit-sequence>? '.' <digit-sequence> |
+                          <digit-sequence> '.'
+
+<exponent-part> ::=     e <sign>? <digit-sequence> |
+                        E <sign>? <digit-sequence>
+
+<sign> ::= '+' | '-'
+
+<digit-sequence> ::=    <digit> |
+                        <digit-sequence> <digit>
+
+<floating-suffix> ::= 'f' | 'l' | 'F' | 'L'
+
+====================================================================================================
+
+<const_float> ::= ^([+-]?[0-9]*\.?[0-9]+([eE][+-]?[0-9]+)?[fFlL]?)|([+-]?(0x|0X)[0-9a-fA-F]+\.?[0-9a-fA-F]+[pP][+-]?[0-9]+[fFlL]?)$
+<const_float_v2> ::= ^(([+-]?[0-9]*\.?[0-9]+([eE][+-]?[0-9]+)?[fFlL]?)|([+-]?0x[0-9a-fA-F]+\.?[0-9a-fA-F]+[pP][+-]?[0-9]+[fFlL]?)|([+-]?0X[0-9a-fA-F]+\.?[0-9a-fA-F]+[pP][+-]?[0-9]+[fFlL]?))$
+
+<const_int> ::= ^0|([+-]?[1-9][0-9]*[uU]?(l|ll|L|LL)?)|([+-]?0[0-7]*[uU]?(l|ll|L|LL)?)|([+-]?(0b|0B)?[01]+[uU]?(l|ll|L|LL)?)|([+-]?(0x|0X)[0-9a-fA-F]+[uU]?(l|ll|L|LL)?)$
+<const_int_v2> ::= ^((0)|([+-]?[1-9][0-9]*[uU]?(l|ll|L|LL)?)|([+-]?0[0-7]*[uU]?(l|ll|L|LL)?)|([+-]?0b[01]+[uU]?(l|ll|L|LL)?)|([+-]?0B[01]+[uU]?(l|ll|L|LL)?)|([+-]?(0x|0X)[0-9a-fA-F]+[uU]?(l|ll|L|LL)?))$

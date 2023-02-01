@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int n, x, s = 0;
+    
+    printf("Introduceti n ");
+    scanf("%d", &n);
+    
+    while (n > 0) {
+        scanf("%d", &x);
+        s += x;
+        n--;
+    }
+    
+    printf("Suma ");
+    printf("%d", s);
+    
+    return 0;
+}

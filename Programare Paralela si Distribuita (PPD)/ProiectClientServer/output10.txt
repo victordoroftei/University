@@ -1,0 +1,744 @@
+Verificarea nr. 1
+Data si ora: 2023-01-04 19:14:51
+
+Locatia: 0
+Suma totala pentru locatia 0 = 220
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 1 1 1 1 1 1 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Locatia: 1
+Suma totala pentru locatia 1 = 150
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Locatia: 2
+Suma totala pentru locatia 2 = 0
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 6
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Locatia: 3
+Suma totala pentru locatia 3 = 180
+	Id-urile pentru programarile neplatite: 530 
+
+Tipul de tratament: 0
+Nr. max de clienti: 9
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 6
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 1 2 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Locatia: 4
+Suma totala pentru locatia 4 = 170
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 12
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 8
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Verificarea nr. 2
+Data si ora: 2023-01-04 19:15:01
+
+Locatia: 0
+Suma totala pentru locatia 0 = 660
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 1 1 1 1 1 2 2 1 1 1 1 1 1 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 1 1 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 
+
+Tipul de tratament: 4
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 
+
+Locatia: 1
+Suma totala pentru locatia 1 = 460
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 1 1 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Locatia: 2
+Suma totala pentru locatia 2 = 660
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 6
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 2 2 2 2 2 2 1 0 0 0 0 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 1 1 1 2 2 2 2 1 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Locatia: 3
+Suma totala pentru locatia 3 = 510
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 9
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 6
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 1 2 1 2 2 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Locatia: 4
+Suma totala pentru locatia 4 = 480
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 12
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 8
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 1 1 0 0 1 1 1 1 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Verificarea nr. 3
+Data si ora: 2023-01-04 19:15:11
+
+Locatia: 0
+Suma totala pentru locatia 0 = 1180
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 1 1 1 1 1 2 2 1 1 1 1 2 2 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 1 1 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 2 2 2 1 0 0 0 0 0 0 0 1 1 1 0 0 0 1 1 1 1 0 0 0 0 1 2 
+
+Tipul de tratament: 4
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 
+
+Locatia: 1
+Suma totala pentru locatia 1 = 750
+	Id-urile pentru programarile neplatite: 613 
+
+Tipul de tratament: 0
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 0 0 1 2 2 3 3 3 3 3 2 1 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 2 2 1 1 
+
+Tipul de tratament: 4
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 
+
+Locatia: 2
+Suma totala pentru locatia 2 = 1140
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 6
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 2 2 3 3 3 3 3 3 2 2 1 0 0 0 0 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 2 2 1 2 2 2 2 1 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 1 
+
+Tipul de tratament: 4
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+Locatia: 3
+Suma totala pentru locatia 3 = 700
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 9
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 1 1 2 2 2 2 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 6
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 1 2 1 2 2 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Locatia: 4
+Suma totala pentru locatia 4 = 680
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 12
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 1 1 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 8
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 1 1 0 0 1 1 1 1 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+
+Verificarea nr. 4
+Data si ora: 2023-01-04 19:15:21
+
+Locatia: 0
+Suma totala pentru locatia 0 = 1380
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 2 2 2 2 2 2 2 1 1 2 2 2 2 2 2 2 2 1 1 1 1 1 2 2 1 1 1 1 2 2 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 1 1 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 2 2 2 1 0 0 0 0 0 0 0 1 1 1 0 0 0 2 2 2 2 0 0 0 0 1 2 
+
+Tipul de tratament: 4
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 
+
+Locatia: 1
+Suma totala pentru locatia 1 = 1160
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 1 1 1 1 1 1 0 2 3 3 3 3 3 3 3 0 0 0 1 2 2 3 3 3 3 3 2 1 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 1 1 0 1 1 1 0 1 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 0 0 1 1 0 0 0 1 1 1 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 2 2 1 1 
+
+Tipul de tratament: 4
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 0 0 0 
+
+Locatia: 2
+Suma totala pentru locatia 2 = 1240
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 6
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 2 2 3 3 3 3 3 3 2 2 1 0 0 0 0 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 1 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 1 1 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 2 2 1 2 2 2 2 1 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 1 
+
+Tipul de tratament: 4
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+Locatia: 3
+Suma totala pentru locatia 3 = 970
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 9
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 1 1 3 3 3 3 2 2 2 2 0 0 0 0 0 0 1 1 1 1 2 2 3 3 2 2 2 2 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 1 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 6
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 1 2 1 2 2 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+
+Locatia: 4
+Suma totala pentru locatia 4 = 1000
+	Id-urile pentru programarile neplatite: 650 
+
+Tipul de tratament: 0
+Nr. max de clienti: 12
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 2 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 2 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 2 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 2 2 0 0 0 1 0 0 1 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 8
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 1 1 0 0 1 2 2 2 1 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 
+
+
+Verificarea nr. 5
+Data si ora: 2023-01-04 19:15:31
+
+Locatia: 0
+Suma totala pentru locatia 0 = 1540
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 2 2 2 2 2 2 2 1 1 2 2 2 2 2 2 2 2 1 1 1 1 1 2 2 1 1 1 1 2 2 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 1 1 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 2 2 2 1 0 0 0 0 1 1 1 2 1 1 0 0 0 2 2 2 2 0 0 0 0 1 2 
+
+Tipul de tratament: 4
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 
+
+Locatia: 1
+Suma totala pentru locatia 1 = 1350
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 1 1 1 1 1 1 0 2 3 3 3 3 3 3 3 0 0 0 1 2 2 3 3 3 3 3 2 1 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 1 1 0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 0 0 1 1 0 0 0 1 1 1 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 1 2 2 2 1 0 0 0 0 0 1 1 2 2 1 1 
+
+Tipul de tratament: 4
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 0 0 1 
+
+Locatia: 2
+Suma totala pentru locatia 2 = 1630
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 6
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 3 3 4 4 5 5 5 5 3 3 2 1 0 0 0 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 1 1 2 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1 1 0 1 1 0 0 0 1 1 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 2 2 1 2 2 2 3 2 2 2 1 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 1 
+
+Tipul de tratament: 4
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 1 1 0 1 1 0 0 1 
+
+Locatia: 3
+Suma totala pentru locatia 3 = 1360
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 9
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 2 2 2 2 4 4 5 5 3 3 3 3 1 1 0 0 0 0 1 1 1 1 2 2 3 3 2 2 3 3 2 
+
+Tipul de tratament: 1
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 2 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 1 0 1 1 0 0 1 1 0 0 0 0 1 2 1 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 6
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 1 2 1 2 2 1 1 0 1 1 1 2 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+
+Locatia: 4
+Suma totala pentru locatia 4 = 1440
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 12
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 2 1 1 1 1 1 1 2 1 1 1 2 2 2 2 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 2 3 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 3 1 
+
+Tipul de tratament: 2
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 2 2 0 0 0 1 0 0 1 1 0 0 0 1 2 1 0 0 0 0 0 1 1 0 1 1 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 8
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 1 1 1 1 2 3 2 2 1 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 0 1 2 1 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 
+
+
+Verificarea nr. 6
+Data si ora: 2023-01-04 19:15:41
+
+Locatia: 0
+Suma totala pentru locatia 0 = 1630
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 2 2 2 2 2 2 2 1 1 2 2 2 2 2 2 2 2 1 1 1 1 1 2 2 1 1 1 1 2 2 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 1 1 0 1 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 2 2 2 1 0 0 0 0 1 1 1 2 1 1 0 0 0 2 2 2 2 0 0 0 0 1 2 
+
+Tipul de tratament: 4
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 0 0 1 1 0 0 1 1 0 0 0 1 
+
+Locatia: 1
+Suma totala pentru locatia 1 = 1440
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 1 1 1 1 1 1 0 2 3 3 3 3 3 3 3 0 0 0 1 2 2 3 3 3 3 3 2 1 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 1 1 0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 0 0 1 1 0 1 0 1 1 1 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 1 2 2 2 1 0 0 0 0 0 1 1 2 2 1 1 
+
+Tipul de tratament: 4
+Nr. max de clienti: 1
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 0 0 1 
+
+Locatia: 2
+Suma totala pentru locatia 2 = 1780
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 6
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 3 3 4 4 5 5 5 5 3 3 2 1 0 0 0 0 
+
+Tipul de tratament: 1
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 1 1 0 0 0 0 1 0 0 1 1 1 0 0 0 0 0 1 0 2 0 0 0 0 1 1 2 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1 1 0 1 1 0 0 0 1 1 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 1 1 2 2 1 2 2 2 3 2 2 2 1 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 1 
+
+Tipul de tratament: 4
+Nr. max de clienti: 2
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 1 0 0 1 1 0 1 1 0 1 1 0 0 1 
+
+Locatia: 3
+Suma totala pentru locatia 3 = 1800
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 9
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 2 2 2 2 4 4 5 5 3 3 3 3 1 1 0 0 0 0 1 1 1 1 2 2 3 3 2 2 3 3 2 
+
+Tipul de tratament: 1
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 2 1 0 1 0 1 1 0 0 0 0 0 0 1 1 0 0 0 0 0 1 2 1 0 0 0 0 0 1 0 0 0 
+
+Tipul de tratament: 2
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 1 0 1 1 0 0 1 1 0 0 0 0 1 3 3 1 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 6
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 1 2 1 2 2 1 1 0 1 1 1 2 1 2 2 1 1 0 0 0 0 0 0 0 0 0 0 1 2 2 
+
+Tipul de tratament: 4
+Nr. max de clienti: 3
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 
+
+Locatia: 4
+Suma totala pentru locatia 4 = 1800
+	Id-urile pentru programarile neplatite: none
+
+Tipul de tratament: 0
+Nr. max de clienti: 12
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 1 1 1 1 1 2 1 1 2 2 2 2 2 1 2 1 1 1 1 1 1 2 1 1 1 2 2 2 2 1 
+
+Tipul de tratament: 1
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 2 3 2 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 3 1 
+
+Tipul de tratament: 2
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 1 1 0 2 2 0 0 0 1 0 0 1 1 0 0 1 2 2 1 0 0 0 0 0 1 1 0 1 1 0 0 0 
+
+Tipul de tratament: 3
+Nr. max de clienti: 8
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 0 0 0 1 1 1 2 2 2 3 3 2 2 1 0 0 1 1 1 1 0 0 0 0 0 0 0 0 
+
+Tipul de tratament: 4
+Nr. max de clienti: 4
+Tratamentul are urmatorii clienti (la fiecare 15 minute): 0 0 0 0 0 1 1 0 1 1 0 0 1 2 1 0 0 1 1 0 0 0 1 1 0 1 1 0 0 1 1 0 0 
+
+

@@ -1,0 +1,20 @@
+main ~~~ Keyword
+( ~~~ Separator
+) ~~~ Separator
+{ ~~~ Separator
+if ~~~ Keyword
+a ~~~ ID
+<= ~~~ Relational Operator
+b ~~~ ID
+|| ~~~ Boolean Operator
+>= ~~~ Relational Operator
+= ~~~ Algebraic Operator
+2 ~~~ CONST
+; ~~~ Separator
+3 ~~~ CONST
+} ~~~ Separator
+else ~~~ Keyword
+!= ~~~ Relational Operator
+== ~~~ Relational Operator
+&& ~~~ Boolean Operator
+7 ~~~ CONST

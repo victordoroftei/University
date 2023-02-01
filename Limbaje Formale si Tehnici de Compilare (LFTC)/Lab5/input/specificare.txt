@@ -1,0 +1,56 @@
+program
+program-MAIN PD PI AD bloc_instructiuni AI
+bloc_instructiuni-instructiune bloc_instructiuni
+bloc_instructiuni-instructiune
+instructiune-instructiune_declarativa PV
+instructiune-instructiune_atriburire PV
+instructiune-instructiune_input_output PV
+instructiune-instructiune_conditionala
+instructiune-instructiune_ciclare
+instructiune-instructiune_cattimp
+instructiune_declarativa-tip lista_variabile
+tip-tip_clasic
+tip-tip_complex
+tip_clasic-INT
+tip_clasic-FLOAT
+tip_complex-STRUCT ID_SIMPLU AD bloc_instructiuni_declarative AI
+bloc_instructiuni_declarative-instructiune_declarativa PV
+bloc_instructiuni_declarative-instructiune_declarativa PV bloc_instructiuni_declarative
+id-ID
+id-ID_SIMPLU
+lista_variabile-variabila_generala
+lista_variabile-variabila_generala VIRGULA lista_variabile
+variabila_generala-id
+variabila_generala-id EGAL expresie
+expresie-termen operator_aritmetic expresie
+expresie-termen
+termen-id
+termen-CONST_INT
+termen-CONST_FLOAT
+operator_aritmetic-PLUS
+operator_aritmetic-MINUS
+operator_aritmetic-INMUL
+operator_aritmetic-DIV
+operator_aritmetic-MOD
+instructiune_atriburire-id EGAL expresie
+instructiune_input_output-instructiune_input
+instructiune_input_output-instructiune_output
+instructiune_input-CIN OP_INP id
+instructiune_output-COUT OP_OUT id
+instructiune_output-COUT OP_OUT CONST_STRING
+instructiune_conditionala-instructiune_conditionala_if
+instructiune_conditionala-instructiune_conditionala_else
+instructiune_conditionala_if-IF PD expresie_booleana PI AD bloc_instructiuni AI
+instructiune_conditionala_else-instructiune_conditionala_if ELSE AD bloc_instructiuni AI
+expresie_booleana-expresie_relationala
+expresie_booleana-expresie_relationala operator_bool expresie_booleana
+expresie_relationala-expresie operator_relational expresie
+expresie_relationala-expresie
+operator_relational-MIC
+operator_relational-MARE
+operator_relational-EGAL_EGAL
+operator_relational-DIFERIT
+operator_bool-AND
+operator_bool-OR
+instructiune_ciclare-WHILE PD expresie_booleana PI AD bloc_instructiuni AI
+instructiune_cattimp-CATTIMP PD id PI EXECUTA bloc_instructiuni SFCATTIMP

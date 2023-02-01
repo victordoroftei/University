@@ -1,0 +1,23 @@
+main ~~~ Keyword
+( ~~~ Separator
+) ~~~ Separator
+{ ~~~ Separator
+int ~~~ Keyword
+r ~~~ ID
+= ~~~ Operator
+5 ~~~ CONST
+; ~~~ Separator
+float ~~~ Keyword
+a ~~~ ID
+3.14 ~~~ CONST
+.15 ~~~ CONST
+* ~~~ Operator
+printf ~~~ Keyword
+"Aria " ~~~ CONST
+"%f" ~~~ Keyword
+, ~~~ Separator
+p ~~~ ID
+2 ~~~ CONST
+3.1415 ~~~ CONST
+" Perimetrul " ~~~ CONST
+} ~~~ Separator

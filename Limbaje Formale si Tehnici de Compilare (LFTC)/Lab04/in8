@@ -1,0 +1,41 @@
+main() {
+
+    struct date {
+        int year, day;
+        int month;
+    }a, b, c;
+
+    struct point {
+        int x, y;
+    }p;
+
+    printf("Date ");
+    printf("%d", a.year);
+    printf("%d", a.month);
+    printf("%d", a.day);
+    
+    int hasErrors = 0;
+
+    if (a.year <= 1900) {
+        printf("Year error");
+        hasErrors = 1;
+    };
+
+    if (a.month <= 0 || a.month >= 13) {
+        printf("Month error");
+        hasErrors = 1;
+    };
+
+    if (a.day <= 0 || a.day >= 32) {
+        printf("Day error");
+        hasErrors = 1;
+    };
+
+    if (hasErrors == 0 && hasErrors == 0) {
+        printf("All ok");
+    };
+
+    int x = 705;
+    printf("%d", x);
+
+}

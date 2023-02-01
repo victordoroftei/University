@@ -1,0 +1,28 @@
+main ~~~ Keyword
+( ~~~ Separator
+) ~~~ Separator
+$` ~~~ UNKNOWN
+{ ~~~ Separator
+int ~~~ Keyword
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr ~~~ INCORRECT
+= ~~~ Algebraic Operator
+5 ~~~ CONST
+; ~~~ Separator
+float ~~~ Keyword
+a ~~~ ID
+3.1415 ~~~ CONST
+* ~~~ Algebraic Operator
+r ~~~ ID
+printf ~~~ Keyword
+"Aria " ~~~ CONST
+~ ~~~ UNKNOWN
+%f ~~~ Keyword
+: ~~~ UNKNOWN
+>= ~~~ Relational Operator
+$6 ~~~ UNKNOWN
+3.14.15 ~~~ UNKNOWN
+p ~~~ ID
+2 ~~~ CONST
+", Perimet$rul " ~~~ INCORRECT
+`` ~~~ UNKNOWN
+} ~~~ Separator

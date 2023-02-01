@@ -1,0 +1,4 @@
+flex analizor.lex
+bison -d analizor.y
+gcc lex.yy.c analizor.tab.c -o program
+./program fisier

@@ -1,0 +1,8 @@
+Tabela de Simboluri:
+("Introduceti n "; 1004)
+("Suma "; 1006)
+(0; 1003)
+(1; 1005)
+(n; 1000)
+(s; 1002)
+(x; 1001)
