@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\__Teme\Programare Paralela si Distribuita (PPD)\Lab1_CPP_Static\Lab1_CPP_Static\main.cpp(178,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab1_CPP_Static.vcxproj -> E:\__Teme\Programare Paralela si Distribuita (PPD)\Lab1_CPP_Static\x64\Debug\Lab1_CPP_Static.exe

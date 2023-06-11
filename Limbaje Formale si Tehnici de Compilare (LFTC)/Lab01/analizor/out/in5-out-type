@@ -1,0 +1,13 @@
+main ~~~ Keyword
+( ~~~ Separator
+) ~~~ Separator
+{ ~~~ Separator
+float ~~~ Keyword
+a ~~~ ID
+; ~~~ Separator
+int ~~~ Keyword
+b ~~~ ID
+= ~~~ Algebraic Operator
++ ~~~ Algebraic Operator
+3 ~~~ CONST
+} ~~~ Separator

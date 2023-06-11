@@ -1,0 +1,7 @@
+E-T X
+X-+ E
+X-#
+T-T * F
+T-F
+F-( E )
+F-a

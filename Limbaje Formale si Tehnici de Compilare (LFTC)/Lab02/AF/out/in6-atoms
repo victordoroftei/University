@@ -1,0 +1,30 @@
+main ~~~ Keyword
+( ~~~ Separator
+) ~~~ Separator
+$ ~~~ UNKNOWN
+` ~~~ UNKNOWN
+{ ~~~ Separator
+int ~~~ Keyword
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr ~~~ UNKNOWN
+= ~~~ Operator
+5 ~~~ CONST
+; ~~~ Separator
+float ~~~ Keyword
+a ~~~ ID
+3.1415 ~~~ CONST
+* ~~~ Operator
+r ~~~ ID
+printf ~~~ Keyword
+"Aria " ~~~ CONST
+~ ~~~ UNKNOWN
+"%f" ~~~ Keyword
+, ~~~ Separator
+: ~~~ UNKNOWN
+>= ~~~ Operator
+6 ~~~ CONST
+3.14 ~~~ CONST
+.15 ~~~ CONST
+p ~~~ ID
+2 ~~~ CONST
+" Perimetrul " ~~~ CONST
+} ~~~ Separator

@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+
+	int x = 60, y = 25;
+
+	while (x != y) {
+		if (x > y) {
+			x = x - y;
+		} else {
+			y = y - x;
+		}
+	}
+
+	printf("CMMDC ");
+	printf("%d", x);
+
+	return 0;
+}

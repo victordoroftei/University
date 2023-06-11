@@ -1,0 +1,61 @@
+program
+program-4 25 26 27 bloc_instructiuni 28
+bloc_instructiuni-instructiune bloc_instructiuni_prim
+bloc_instructiuni_prim-bloc_instructiuni
+bloc_instructiuni_prim-#
+instructiune-instructiune_declarativa 29
+instructiune-instructiune_atriburire 29
+instructiune-instructiune_input_output 29
+instructiune-instructiune_conditionala
+instructiune-instructiune_ciclare
+instructiune-instructiune_cattimp
+instructiune_declarativa-tip lista_variabile
+tip-tip_clasic
+tip-tip_complex
+tip_clasic-2
+tip_clasic-3
+tip_complex-10 0 27 bloc_instructiuni_declarative 28
+bloc_instructiuni_declarative-instructiune_declarativa 29 bloc_instruciuni_declarative_prim
+bloc_instructiuni_declarative_prim-bloc_instructiuni_declarative
+bloc_instructiuni_declarative_prim-#
+id-0
+lista_variabile-variabila_generala lista_variabile_prim
+lista_variabile_prim-30 lista_variabile
+lista_variabile_prim-#
+variabila_generala-id variabila_generala_prim
+variabila_generala_prim-24 expresie
+variabila_generala_prim-#
+expresie-termen expresie_prim
+expresie_prim-operator_aritmetic expresie
+expresie_prim-#
+termen-id
+termen-1
+operator_aritmetic-13
+operator_aritmetic-14
+operator_aritmetic-15
+operator_aritmetic-16
+operator_aritmetic-17
+instructiune_atriburire-id 24 expresie
+instructiune_input_output-instructiune_input
+instructiune_input_output-instructiune_output
+instructiune_input-8 11 id
+instructiune_output-9 12 termen
+instructiune_conditionala-instructiune_conditionala_if instructiune_conditionala_prim
+instructiune_conditionala_prim-instructiune_conditionala_else
+instructiune_conditionala_prim-#
+instructiune_conditionala_if-5 25 expresie_booleana 26 27 bloc_instructiuni 28
+instructiune_conditionala_else-6 27 bloc_instructiuni 28
+expresie_booleana-expresie_relationala expresie_booleana_prim
+expresie_booleana_prim-operator_bool expresie_booleana
+expresie_booleana_prim-#
+expresie_relationala-expresie expresie_relationala_prim
+expresie_relationala_prim-operator_relational expresie
+expresie_relationala_prim-#
+operator_relational-20
+operator_relational-21
+operator_relational-23
+operator_relational-22
+operator_bool-18
+operator_bool-19
+instructiune_ciclare-7 25 expresie_booleana 26 27 bloc_instructiuni 28
+instructiune_cattimp-31 25 id 26 32 bloc_instructiuni 33

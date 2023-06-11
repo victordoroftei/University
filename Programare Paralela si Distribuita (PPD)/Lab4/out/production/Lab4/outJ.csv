@@ -1,0 +1,19 @@
+Tip Polinom,Nr Consumer Threads,Nr Producer Threads,Queue Size,Timp Executie
+P1(10 polinoame, grad maxim 1000, maxim 50 monoame),3,2,20,51.76271
+,2,2,20,43.4318
+,4,2,20,51.53173
+,4,4,20,51.79119
+,6,2,20,49.20985
+,7,1,20,48.86381
+P2(5 polinoame, grad maxim 10000, maxim 100 monoame),3,2,30,57.91046
+,2,2,30,46.01527
+,4,2,30,54.79386
+,4,4,30,55.44012
+,6,2,30,52.08246
+,7,1,30,50.895
+P3(10 polinoame, grad maxim 1000, maxim 100 monoame),3,2,30,95.49099
+,2,2,30,78.4995
+,4,2,30,97.17339
+,4,4,30,99.58046
+,6,2,30,100.09814
+,7,1,30,98.26127

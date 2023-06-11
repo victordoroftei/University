@@ -1,0 +1,27 @@
+main ~~~ Keyword
+( ~~~ Separator
+) ~~~ Separator
+{ ~~~ Separator
+int ~~~ Keyword
+n ~~~ ID
+, ~~~ Separator
+x ~~~ ID
+s ~~~ ID
+= ~~~ Operator
+0 ~~~ CONST
+; ~~~ Separator
+printf ~~~ Keyword
+"Introduceti n " ~~~ CONST
+scanf ~~~ Keyword
+"%d" ~~~ Keyword
+& ~~~ Separator
+while ~~~ Keyword
+> ~~~ Operator
+|| ~~~ Operator
+&& ~~~ Operator
+== ~~~ Operator
++ ~~~ Operator
+- ~~~ Operator
+1 ~~~ CONST
+} ~~~ Separator
+"Suma " ~~~ CONST
