@@ -1,0 +1,170 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > PizzaService</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/highlight-idea.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">pizzashop.service</a>
+</div>
+
+<h1>Coverage Summary for Class: PizzaService (pizzashop.service)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">PizzaService</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    60%
+  </span>
+  <span class="absValue">
+    (3/5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    92.3%
+  </span>
+  <span class="absValue">
+    (24/26)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package pizzashop.service;
+<i class="no-highlight">2</i>&nbsp;
+<i class="no-highlight">3</i>&nbsp;import pizzashop.model.MenuDataModel;
+<i class="no-highlight">4</i>&nbsp;import pizzashop.model.Payment;
+<i class="no-highlight">5</i>&nbsp;import pizzashop.model.PaymentType;
+<i class="no-highlight">6</i>&nbsp;import pizzashop.repository.MenuRepository;
+<i class="no-highlight">7</i>&nbsp;import pizzashop.repository.PaymentRepository;
+<i class="no-highlight">8</i>&nbsp;
+<i class="no-highlight">9</i>&nbsp;import java.util.ArrayList;
+<i class="no-highlight">10</i>&nbsp;import java.util.List;
+<i class="no-highlight">11</i>&nbsp;
+<i class="no-highlight">12</i>&nbsp;public class PizzaService {
+<i class="no-highlight">13</i>&nbsp;
+<i class="no-highlight">14</i>&nbsp;    private MenuRepository menuRepo;
+<i class="no-highlight">15</i>&nbsp;    private PaymentRepository payRepo;
+<i class="no-highlight">16</i>&nbsp;
+<b class="fc"><i class="no-highlight">17</i>&nbsp;    public PizzaService(MenuRepository menuRepo, PaymentRepository payRepo){</b>
+<b class="fc"><i class="no-highlight">18</i>&nbsp;        this.menuRepo=menuRepo;</b>
+<b class="fc"><i class="no-highlight">19</i>&nbsp;        this.payRepo=payRepo;</b>
+<i class="no-highlight">20</i>&nbsp;    }
+<i class="no-highlight">21</i>&nbsp;
+<b class="nc"><i class="no-highlight">22</i>&nbsp;    public List&lt;MenuDataModel&gt; getMenuData(){return menuRepo.getMenu();}</b>
+<i class="no-highlight">23</i>&nbsp;
+<b class="nc"><i class="no-highlight">24</i>&nbsp;    public List&lt;Payment&gt; getPayments(){return payRepo.getAllPayments(); }</b>
+<i class="no-highlight">25</i>&nbsp;
+<i class="no-highlight">26</i>&nbsp;    public void addPayment(int table, PaymentType type, double amount) {
+<b class="fc"><i class="no-highlight">27</i>&nbsp;        if (table &lt; 1 || table &gt; 8) {               // &lt;1&gt;</b>
+<b class="fc"><i class="no-highlight">28</i>&nbsp;            throw new RuntimeException(&quot;Error&quot;);    // (2)</b>
+<i class="no-highlight">29</i>&nbsp;        }
+<i class="no-highlight">30</i>&nbsp;
+<b class="fc"><i class="no-highlight">31</i>&nbsp;        if (type == null) {                         // &lt;3&gt;</b>
+<b class="fc"><i class="no-highlight">32</i>&nbsp;            throw new RuntimeException(&quot;Error&quot;);    // (4)</b>
+<i class="no-highlight">33</i>&nbsp;        }
+<i class="no-highlight">34</i>&nbsp;
+<b class="fc"><i class="no-highlight">35</i>&nbsp;        if (amount &lt;= 0) {                          // &lt;5&gt;</b>
+<b class="fc"><i class="no-highlight">36</i>&nbsp;            throw new RuntimeException(&quot;Error&quot;);    // (6)</b>
+<i class="no-highlight">37</i>&nbsp;        }
+<i class="no-highlight">38</i>&nbsp;
+<b class="fc"><i class="no-highlight">39</i>&nbsp;        List&lt;Integer&gt; list = new ArrayList&lt;&gt;();     // (7)</b>
+<b class="fc"><i class="no-highlight">40</i>&nbsp;        for (int i = 0; i &lt; 87; i++) {              // &lt;8&gt;</b>
+<b class="fc"><i class="no-highlight">41</i>&nbsp;            list.add(87);                           // (9)</b>
+<i class="no-highlight">42</i>&nbsp;        }
+<i class="no-highlight">43</i>&nbsp;
+<b class="fc"><i class="no-highlight">44</i>&nbsp;        System.out.printf(&quot;List size is: %d\n&quot;, list.size());   // (10)</b>
+<i class="no-highlight">45</i>&nbsp;
+<b class="fc"><i class="no-highlight">46</i>&nbsp;        Payment payment= new Payment(table, type, amount);      // (11)</b>
+<b class="fc"><i class="no-highlight">47</i>&nbsp;        payRepo.add(payment);                                   // (12)</b>
+<i class="no-highlight">48</i>&nbsp;    }                                                           // (13)
+<i class="no-highlight">49</i>&nbsp;
+<i class="no-highlight">50</i>&nbsp;    public double getTotalAmount(PaymentType type, List&lt;Payment&gt; l) {   // (1)
+<b class="fc"><i class="no-highlight">51</i>&nbsp;        double total = 0.0;                                             // (2)</b>
+<b class="fc"><i class="no-highlight">52</i>&nbsp;        if (l == null) {                                                // &lt;3&gt;</b>
+<b class="fc"><i class="no-highlight">53</i>&nbsp;            total = 0.0;                                                // (4)</b>
+<b class="fc"><i class="no-highlight">54</i>&nbsp;        } else if (l.size() == 0) {                                     // &lt;5&gt;</b>
+<b class="fc"><i class="no-highlight">55</i>&nbsp;            total = 0.0;                                                // (4)</b>
+<i class="no-highlight">56</i>&nbsp;        } else {
+<b class="fc"><i class="no-highlight">57</i>&nbsp;            for (int i = 0; i &lt; l.size(); i++) {                        // &lt;6&gt;</b>
+<b class="fc"><i class="no-highlight">58</i>&nbsp;                if (l.get(i).getType().equals(type))                    // &lt;7&gt;</b>
+<b class="fc"><i class="no-highlight">59</i>&nbsp;                    total += l.get(i).getAmount();                      // (8)</b>
+<i class="no-highlight">60</i>&nbsp;            }
+<i class="no-highlight">61</i>&nbsp;        }
+<b class="fc"><i class="no-highlight">62</i>&nbsp;        return total;                                                   // (9)</b>
+<i class="no-highlight">63</i>&nbsp;    }                                                                   // (10)
+<i class="no-highlight">64</i>&nbsp;
+<i class="no-highlight">65</i>&nbsp;}
+</div>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+        var codeBlock = document.getElementById('sourceCode');
+
+        if (codeBlock) {
+            hljs.highlightBlock(codeBlock);
+        }
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2023-04-04 18:29</div>
+</div>
+</body>
+</html>
