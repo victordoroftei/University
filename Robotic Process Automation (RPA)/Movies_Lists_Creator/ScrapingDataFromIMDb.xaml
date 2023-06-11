@@ -1,0 +1,608 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="OpenNewChromeInstance" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_movieDataTable" Type="InArgument(sd:DataTable)" />
+    <x:Property Name="io_outputDataTable" Type="InOutArgument(sd:DataTable)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap:VirtualizedContainerService.HintSize>809.6,1022.4</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="64">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Net.Mail</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="64">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Open a new Chrome instance" sap:VirtualizedContainerService.HintSize="508.8,957.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="1a503fe3-3331-4e07-b8b3-d059fc49544f" Version="V1" WindowResize="Maximize">
+    <uix:NApplicationCard.Body>
+      <ActivityAction x:TypeArguments="x:Object">
+        <ActivityAction.Argument>
+          <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+        </ActivityAction.Argument>
+        <Sequence DisplayName="Chrome Body" sap:VirtualizedContainerService.HintSize="475.2,740.8" sap2010:WorkflowViewState.IdRef="Sequence_52">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:String" Name="movieString" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DisplayName="Iterating each movie title given by the user" sap:VirtualizedContainerService.HintSize="433.6,646.4" sap2010:WorkflowViewState.IdRef="ForEachRow_8">
+            <ui:ForEachRow.Body>
+              <ActivityAction x:TypeArguments="sd:DataRow">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Checking the results for each search query" sap:VirtualizedContainerService.HintSize="375.2,524" sap2010:WorkflowViewState.IdRef="Sequence_51">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:GetRowItem Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="Movie Title" DisplayName="Copy search input from the user in a local variable" sap:VirtualizedContainerService.HintSize="333.6,188" sap2010:WorkflowViewState.IdRef="GetRowItem_8">
+                    <ui:GetRowItem.Row>
+                      <InArgument x:TypeArguments="sd:DataRow">
+                        <mca:CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_121">CurrentRow</mca:CSharpValue>
+                      </InArgument>
+                    </ui:GetRowItem.Row>
+                    <ui:GetRowItem.Value>
+                      <OutArgument x:TypeArguments="x:String">
+                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_81">movieString</mca:CSharpReference>
+                      </OutArgument>
+                    </ui:GetRowItem.Value>
+                  </ui:GetRowItem>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
+                    <ui:LogMessage.Message>
+                      <InArgument x:TypeArguments="x:Object">
+                        <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_122">movieString</mca:CSharpValue>
+                      </InArgument>
+                    </ui:LogMessage.Message>
+                  </ui:LogMessage>
+                  <Sequence DisplayName="Process each search query" sap:VirtualizedContainerService.HintSize="1014.4,5784" sap2010:WorkflowViewState.IdRef="Sequence_50">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="sd:DataTable" Name="intermediateDataTable" />
+                      <Variable x:TypeArguments="sd:DataTable" Name="ExtractDataTable">
+                        <Variable.Default>
+                          <mca:CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_123">new System.Data.DataTable();</mca:CSharpValue>
+                        </Variable.Default>
+                      </Variable>
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:BuildDataTable DisplayName="Initialize intermediateDataTable(used for sorting by rating)" sap:VirtualizedContainerService.HintSize="972.8,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Movie_x0020_Title&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Year&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;IMDb_x0020_Rating&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Popularity&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Movie_x0020_URL&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
+                      <ui:BuildDataTable.DataTable>
+                        <OutArgument x:TypeArguments="sd:DataTable">
+                          <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_82">intermediateDataTable</mca:CSharpReference>
+                        </OutArgument>
+                      </ui:BuildDataTable.DataTable>
+                    </ui:BuildDataTable>
+                    <ui:AddDataRow DataRow="{x:Null}" DisplayName="Adding search query" sap:VirtualizedContainerService.HintSize="972.8,188" sap2010:WorkflowViewState.IdRef="AddDataRow_10">
+                      <ui:AddDataRow.ArrayRow>
+                        <InArgument x:TypeArguments="s:Object[]">
+                          <mca:CSharpValue x:TypeArguments="s:Object[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_124" xml:space="preserve">new object[] {"", "", movieString, "", ""  }</mca:CSharpValue>
+                        </InArgument>
+                      </ui:AddDataRow.ArrayRow>
+                      <ui:AddDataRow.DataTable>
+                        <InOutArgument x:TypeArguments="sd:DataTable">
+                          <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_83">io_outputDataTable</mca:CSharpReference>
+                        </InOutArgument>
+                      </ui:AddDataRow.DataTable>
+                    </ui:AddDataRow>
+                    <ui:AddDataRow DataRow="{x:Null}" DisplayName="Adding column names" sap:VirtualizedContainerService.HintSize="972.8,188" sap2010:WorkflowViewState.IdRef="AddDataRow_11">
+                      <ui:AddDataRow.ArrayRow>
+                        <InArgument x:TypeArguments="s:Object[]">
+                          <mca:CSharpValue x:TypeArguments="s:Object[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_125" xml:space="preserve">new object[] {"Title", "Year", "Rating", "Popularity", "Movie URL"  }</mca:CSharpValue>
+                        </InArgument>
+                      </ui:AddDataRow.ArrayRow>
+                      <ui:AddDataRow.DataTable>
+                        <InOutArgument x:TypeArguments="sd:DataTable">
+                          <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_84">io_outputDataTable</mca:CSharpReference>
+                        </InOutArgument>
+                      </ui:AddDataRow.DataTable>
+                    </ui:AddDataRow>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search' 'field" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="972.8,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="1a503fe3-3331-4e07-b8b3-d059fc49544f" Version="V1">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.imdb.com/title/tt15474916/?ref_=fn_al_tt_1" DesignTimeRectangle="458, 152, 759, 39" ElementType="InputBox" FriendlyName="'INPUT suggestion-search'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' aria-label='Search IMDb' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aria-label='Search IMDb' aaname='' /&gt;" Guid="6bbf7b07-16f8-4b64-88e0-f077c96ca430" ImageBase64="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" InformativeScreenshot="f90c39d46319b5162e3ed6740fbaa6fd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smile (2022) - IMDb' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_126">movieString</mca:CSharpValue>
+                        </InArgument>
+                      </uix:NTypeInto.Text>
+                    </uix:NTypeInto>
+                    <uix:NClick ClickType="Single" DisplayName="Click search button" sap:VirtualizedContainerService.HintSize="972.8,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1a503fe3-3331-4e07-b8b3-d059fc49544f" Version="V1">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.imdb.com/title/tt15474916/?ref_=fn_al_tt_1" DesignTimeRectangle="1245, 158, 30, 30" ElementType="Icon" FriendlyName="'SVG iconContext-magnify'" FullSelectorArgument="&lt;webctrl id='iconContext-magnify' tag='svg' idx='1' /&gt;" FuzzySelectorArgument="&lt;webctrl id='iconContext-magnify' tag='svg' type='' aaname='' /&gt;" Guid="94da5ca4-1471-4391-99b9-63df390fa548" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAE+SURBVFhH7ZTtiYRAEAUvaUMwBlMwBVMwBWMwBeeohQe9Tc8nK7cH/igQpp0u37Tzc11X+gYeEc8j4vm/Iud5puM4XkTrozSJ0HzbtjRN0xvzPKdlWdK+7+F7PVRFkKChl/Cs6/qqjfZooShC/LYZQiRDAkBzK8lztE8LRRHbBIGoxh8bclFdjawIX1yTsDArqh8Z5KyI0qBBtO4hGYmMpJIVGdlUqYzMSihih7Tn19Ss/LkI6em9aL1EKGLPu2VQRe9cWbIzYs+75aKyKX50WO3v27Kx0oCRGzYrAvbMc8mQhJXoOUpLUYTGtgnPgCAN7SUmWOsZcFEUAWT0W5agRgki25tMVURIyA6xGurI7Fz1yjSLtELzEZmPi8CIzC0i0Ctzmwh4mahG3CoCkqldireLtPKIeB4Rz5eIXOkX3h0aM1eAdH4AAAAASUVORK5CYII=" InformativeScreenshot="590799fe50351c19529589bdbbc782a1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Smile (2022) - IMDb' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ui:ClearDataTable DisplayName="Clear ExtractDataTable" sap:VirtualizedContainerService.HintSize="972.8,80.8" sap2010:WorkflowViewState.IdRef="ClearDataTable_4">
+                      <ui:ClearDataTable.DataTable>
+                        <InOutArgument x:TypeArguments="sd:DataTable">
+                          <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_85">ExtractDataTable</mca:CSharpReference>
+                        </InOutArgument>
+                      </ui:ClearDataTable.DataTable>
+                    </ui:ClearDataTable>
+                    <ui:ExtractData DelayBetweenPagesMS="{x:Null}" NextLinkSelector="{x:Null}" ContinueOnError="True" DisplayName="Extracting MovieTitle, Year and URL" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='MovieTitle' attr='text' name2='MovieURL' attr2='href'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='MovieYear' attr='text'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='ul' idx='1' /&gt;&lt;webctrl tag='li' idx='1' /&gt;&lt;webctrl tag='label' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="972.8,107.2" sap2010:WorkflowViewState.IdRef="ExtractData_6" MaxNumberOfResults="100" SimulateClick="True">
+                      <ui:ExtractData.DataTable>
+                        <InOutArgument x:TypeArguments="sd:DataTable">
+                          <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_86">ExtractDataTable</mca:CSharpReference>
+                        </InOutArgument>
+                      </ui:ExtractData.DataTable>
+                      <ui:ExtractData.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="69df1ff2-a80d-46eb-9777-a7bf12bc20dc" InformativeScreenshot="c1262d47b61d4dfc00a0cadbbafaf5de" Selector="&lt;webctrl aria-role='presentation' tag='UL' /&gt;" WaitForReady="COMPLETE">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                        </ui:Target>
+                      </ui:ExtractData.Target>
+                    </ui:ExtractData>
+                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DisplayName="Iterating through the scraped data" sap:VirtualizedContainerService.HintSize="972.8,2936" sap2010:WorkflowViewState.IdRef="ForEachRow_6">
+                      <ui:ForEachRow.Body>
+                        <ActivityAction x:TypeArguments="sd:DataRow">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="939.2,2815.2" sap2010:WorkflowViewState.IdRef="Sequence_46">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="x:Int32" Name="numberMovieYear" />
+                              <Variable x:TypeArguments="x:String" Name="movieURL" />
+                              <Variable x:TypeArguments="x:String" Name="rating" />
+                              <Variable x:TypeArguments="x:String" Name="popularity" />
+                              <Variable x:TypeArguments="x:String" Name="movieTitle" />
+                              <Variable x:TypeArguments="x:String" Name="movieYear" />
+                            </Sequence.Variables>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:GetRowItem Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="MovieURL" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="897.6,188" sap2010:WorkflowViewState.IdRef="GetRowItem_9">
+                              <ui:GetRowItem.Row>
+                                <InArgument x:TypeArguments="sd:DataRow">
+                                  <mca:CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_128">CurrentRow</mca:CSharpValue>
+                                </InArgument>
+                              </ui:GetRowItem.Row>
+                              <ui:GetRowItem.Value>
+                                <OutArgument x:TypeArguments="x:String">
+                                  <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_87">movieURL</mca:CSharpReference>
+                                </OutArgument>
+                              </ui:GetRowItem.Value>
+                            </ui:GetRowItem>
+                            <ui:GetRowItem Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="MovieTitle" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="897.6,188" sap2010:WorkflowViewState.IdRef="GetRowItem_10">
+                              <ui:GetRowItem.Row>
+                                <InArgument x:TypeArguments="sd:DataRow">
+                                  <mca:CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_129">CurrentRow</mca:CSharpValue>
+                                </InArgument>
+                              </ui:GetRowItem.Row>
+                              <ui:GetRowItem.Value>
+                                <OutArgument x:TypeArguments="x:String">
+                                  <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_88">movieTitle</mca:CSharpReference>
+                                </OutArgument>
+                              </ui:GetRowItem.Value>
+                            </ui:GetRowItem>
+                            <ui:GetRowItem Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="MovieYear" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="897.6,188" sap2010:WorkflowViewState.IdRef="GetRowItem_11">
+                              <ui:GetRowItem.Row>
+                                <InArgument x:TypeArguments="sd:DataRow">
+                                  <mca:CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_130">CurrentRow</mca:CSharpValue>
+                                </InArgument>
+                              </ui:GetRowItem.Row>
+                              <ui:GetRowItem.Value>
+                                <OutArgument x:TypeArguments="x:String">
+                                  <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_89">movieYear</mca:CSharpReference>
+                                </OutArgument>
+                              </ui:GetRowItem.Value>
+                            </ui:GetRowItem>
+                            <If DisplayName="Check if the current movieTitle contains the title given by user" sap:VirtualizedContainerService.HintSize="897.6,2038.4" sap2010:WorkflowViewState.IdRef="If_5">
+                              <If.Condition>
+                                <InArgument x:TypeArguments="x:Boolean">
+                                  <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_131">movieTitle.ToLower().Contains(movieString.ToLower()) &amp;&amp; System.Text.RegularExpressions.Regex.IsMatch(movieYear, @"^[0-9]{4,4}$")</mca:CSharpValue>
+                                </InArgument>
+                              </If.Condition>
+                              <If.Then>
+                                <Sequence DisplayName="Extracting rating and popularity for the current movie" sap:VirtualizedContainerService.HintSize="478.4,1879.2" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="436.8,82.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_3" Version="V1">
+                                    <uix:NGoToUrl.Url>
+                                      <InArgument x:TypeArguments="x:String">
+                                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_132">movieURL</mca:CSharpValue>
+                                      </InArgument>
+                                    </uix:NGoToUrl.Url>
+                                  </uix:NGoToUrl>
+                                  <Assign sap:VirtualizedContainerService.HintSize="436.8,60" sap2010:WorkflowViewState.IdRef="Assign_13">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:String">
+                                        <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_90">movieTitle</mca:CSharpReference>
+                                      </OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:String">
+                                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_133">movieTitle + " (" + movieYear + ")"</mca:CSharpValue>
+                                      </InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                  <TryCatch DisplayName="Trying to get the rating from the movie page(it may not exist)" sap:VirtualizedContainerService.HintSize="436.8,648" sap2010:WorkflowViewState.IdRef="TryCatch_7">
+                                    <TryCatch.Try>
+                                      <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="aaname" DisplayName="Extracting 'rating' value" sap:VirtualizedContainerService.HintSize="333.6,204.8" sap2010:WorkflowViewState.IdRef="GetAttribute_8">
+                                        <ui:GetAttribute.Result>
+                                          <OutArgument x:TypeArguments="x:String">
+                                            <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_91">rating</mca:CSharpReference>
+                                          </OutArgument>
+                                        </ui:GetAttribute.Result>
+                                        <ui:GetAttribute.Target>
+                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5d1b5ad7-1430-459c-9c5b-736f8f7db0da" InformativeScreenshot="b2816f7328a0383c2f6889820db440bc" Selector="&lt;html app='chrome.exe' title='*IMDb*' /&gt;&lt;webctrl parentid='__next' tag='SPAN' class='sc-7ab21ed2-1 jGRxWM' idx='1' /&gt;" TimeoutMS="5000">
+                                            <ui:Target.WaitForReady>
+                                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                                            </ui:Target.WaitForReady>
+                                          </ui:Target>
+                                        </ui:GetAttribute.Target>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </ui:GetAttribute>
+                                    </TryCatch.Try>
+                                    <TryCatch.Catches>
+                                      <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,130.4" sap2010:WorkflowViewState.IdRef="Catch`1_7">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ActivityAction x:TypeArguments="s:Exception">
+                                          <ActivityAction.Argument>
+                                            <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                          </ActivityAction.Argument>
+                                          <Assign sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_14">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="x:String">
+                                                <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_92">rating</mca:CSharpReference>
+                                              </OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="x:String">-1</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                        </ActivityAction>
+                                      </Catch>
+                                    </TryCatch.Catches>
+                                  </TryCatch>
+                                  <TryCatch DisplayName="Trying to get the popularity from the movie page(it may not exist)" sap:VirtualizedContainerService.HintSize="436.8,648" sap2010:WorkflowViewState.IdRef="TryCatch_8">
+                                    <TryCatch.Try>
+                                      <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="aaname" DisplayName="Extracting 'popularity' value" sap:VirtualizedContainerService.HintSize="333.6,204.8" sap2010:WorkflowViewState.IdRef="GetAttribute_9">
+                                        <ui:GetAttribute.Result>
+                                          <OutArgument x:TypeArguments="x:String">
+                                            <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_93">popularity</mca:CSharpReference>
+                                          </OutArgument>
+                                        </ui:GetAttribute.Result>
+                                        <ui:GetAttribute.Target>
+                                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5d1b5ad7-1430-459c-9c5b-736f8f7db0da" InformativeScreenshot="02043a9d094083aaaaee0ec13dabad64" Selector="&lt;webctrl parentid='__next' tag='DIV' class='sc-edc76a2-1 gopMqI' idx='1' /&gt;" TimeoutMS="5000">
+                                            <ui:Target.WaitForReady>
+                                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                                            </ui:Target.WaitForReady>
+                                          </ui:Target>
+                                        </ui:GetAttribute.Target>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </ui:GetAttribute>
+                                    </TryCatch.Try>
+                                    <TryCatch.Catches>
+                                      <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,130.4" sap2010:WorkflowViewState.IdRef="Catch`1_8">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ActivityAction x:TypeArguments="s:Exception">
+                                          <ActivityAction.Argument>
+                                            <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                          </ActivityAction.Argument>
+                                          <Assign sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_15">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="x:String">
+                                                <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_94">popularity</mca:CSharpReference>
+                                              </OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="x:String">-1</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                        </ActivityAction>
+                                      </Catch>
+                                    </TryCatch.Catches>
+                                    <TryCatch.Finally>
+                                      <Assign DisplayName="Special case(when popularity is too big, it uses commas to separate digits, we don't like that)" sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_16">
+                                        <Assign.To>
+                                          <OutArgument x:TypeArguments="x:String">
+                                            <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_95">popularity</mca:CSharpReference>
+                                          </OutArgument>
+                                        </Assign.To>
+                                        <Assign.Value>
+                                          <InArgument x:TypeArguments="x:String">
+                                            <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_134">popularity.Replace(",", "")</mca:CSharpValue>
+                                          </InArgument>
+                                        </Assign.Value>
+                                      </Assign>
+                                    </TryCatch.Finally>
+                                  </TryCatch>
+                                  <ui:AddDataRow DataRow="{x:Null}" DisplayName="Add data to intermediate data table" sap:VirtualizedContainerService.HintSize="436.8,188" sap2010:WorkflowViewState.IdRef="AddDataRow_12">
+                                    <ui:AddDataRow.ArrayRow>
+                                      <InArgument x:TypeArguments="s:Object[]">
+                                        <mca:CSharpValue x:TypeArguments="s:Object[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_135">new object[] {movieTitle, movieYear, rating, popularity, movieURL }</mca:CSharpValue>
+                                      </InArgument>
+                                    </ui:AddDataRow.ArrayRow>
+                                    <ui:AddDataRow.DataTable>
+                                      <InOutArgument x:TypeArguments="sd:DataTable">
+                                        <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_96">intermediateDataTable</mca:CSharpReference>
+                                      </InOutArgument>
+                                    </ui:AddDataRow.DataTable>
+                                  </ui:AddDataRow>
+                                </Sequence>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence DisplayName="Logging unmatched title" sap:VirtualizedContainerService.HintSize="375.2,185.6" sap2010:WorkflowViewState.IdRef="Sequence_45">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Warn">
+                                    <ui:LogMessage.Message>
+                                      <InArgument x:TypeArguments="x:Object">
+                                        <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_136">"This movie title doesn't match the search(add movieTitle later)"</mca:CSharpValue>
+                                      </InArgument>
+                                    </ui:LogMessage.Message>
+                                  </ui:LogMessage>
+                                </Sequence>
+                              </If.Else>
+                            </If>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEachRow.Body>
+                      <ui:ForEachRow.DataTable>
+                        <InArgument x:TypeArguments="sd:DataTable">
+                          <mca:CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_127">ExtractDataTable</mca:CSharpValue>
+                        </InArgument>
+                      </ui:ForEachRow.DataTable>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:ForEachRow>
+                    <ui:SortDataTable ColumnIndex="{x:Null}" DataColumn="{x:Null}" ColumnName="IMDb Rating" DisplayName="Sort intermediate datatable by rating column" sap:VirtualizedContainerService.HintSize="972.8,241.6" sap2010:WorkflowViewState.IdRef="SortDataTable_2" Order="Decending" SortOrder="Descending">
+                      <ui:SortDataTable.DataTable>
+                        <InArgument x:TypeArguments="sd:DataTable">
+                          <mca:CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_137">intermediateDataTable</mca:CSharpValue>
+                        </InArgument>
+                      </ui:SortDataTable.DataTable>
+                      <ui:SortDataTable.OutputDataTable>
+                        <OutArgument x:TypeArguments="sd:DataTable">
+                          <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_97">intermediateDataTable</mca:CSharpReference>
+                        </OutArgument>
+                      </ui:SortDataTable.OutputDataTable>
+                    </ui:SortDataTable>
+                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="972.8,751.2" sap2010:WorkflowViewState.IdRef="ForEachRow_7">
+                      <ui:ForEachRow.Body>
+                        <ActivityAction x:TypeArguments="sd:DataRow">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Replace -1 values from rating and popularity columns with 'Undefined'" sap:VirtualizedContainerService.HintSize="524.8,630.4" sap2010:WorkflowViewState.IdRef="Sequence_49">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <If sap:VirtualizedContainerService.HintSize="483.2,248.8" sap2010:WorkflowViewState.IdRef="If_6">
+                              <If.Condition>
+                                <InArgument x:TypeArguments="x:Boolean">
+                                  <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_139">"-1".Equals(CurrentRow["Popularity"])</mca:CSharpValue>
+                                </InArgument>
+                              </If.Condition>
+                              <If.Then>
+                                <Assign sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_17">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:Object">
+                                      <mca:CSharpReference x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpReference`1_98">CurrentRow["Popularity"]</mca:CSharpReference>
+                                    </OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:Object">
+                                      <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_140">"Undefined"</mca:CSharpValue>
+                                    </InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_47">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </If.Else>
+                            </If>
+                            <If sap:VirtualizedContainerService.HintSize="483.2,248.8" sap2010:WorkflowViewState.IdRef="If_7">
+                              <If.Condition>
+                                <InArgument x:TypeArguments="x:Boolean">
+                                  <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_141">"-1".Equals(CurrentRow["IMDB Rating"])</mca:CSharpValue>
+                                </InArgument>
+                              </If.Condition>
+                              <If.Then>
+                                <Assign sap:VirtualizedContainerService.HintSize="262.4,60" sap2010:WorkflowViewState.IdRef="Assign_18">
+                                  <Assign.To>
+                                    <OutArgument x:TypeArguments="x:Object">
+                                      <mca:CSharpReference x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpReference`1_99">CurrentRow["IMDB Rating"]</mca:CSharpReference>
+                                    </OutArgument>
+                                  </Assign.To>
+                                  <Assign.Value>
+                                    <InArgument x:TypeArguments="x:Object">
+                                      <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_142">"Undefined"</mca:CSharpValue>
+                                    </InArgument>
+                                  </Assign.Value>
+                                </Assign>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_48">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </If.Else>
+                            </If>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEachRow.Body>
+                      <ui:ForEachRow.DataTable>
+                        <InArgument x:TypeArguments="sd:DataTable">
+                          <mca:CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_138">intermediateDataTable</mca:CSharpValue>
+                        </InArgument>
+                      </ui:ForEachRow.DataTable>
+                    </ui:ForEachRow>
+                    <ui:MergeDataTable DisplayName="Merge into outputDataTable" sap:VirtualizedContainerService.HintSize="972.8,134.4" sap2010:WorkflowViewState.IdRef="MergeDataTable_2" MissingSchemaAction="Add">
+                      <ui:MergeDataTable.Destination>
+                        <InOutArgument x:TypeArguments="sd:DataTable">
+                          <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_100">io_outputDataTable</mca:CSharpReference>
+                        </InOutArgument>
+                      </ui:MergeDataTable.Destination>
+                      <ui:MergeDataTable.Source>
+                        <InArgument x:TypeArguments="sd:DataTable">
+                          <mca:CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_143">intermediateDataTable</mca:CSharpValue>
+                        </InArgument>
+                      </ui:MergeDataTable.Source>
+                    </ui:MergeDataTable>
+                    <ui:AddDataRow DataRow="{x:Null}" DisplayName="Add empty row" sap:VirtualizedContainerService.HintSize="972.8,188" sap2010:WorkflowViewState.IdRef="AddDataRow_13">
+                      <ui:AddDataRow.ArrayRow>
+                        <InArgument x:TypeArguments="s:Object[]">
+                          <mca:CSharpValue x:TypeArguments="s:Object[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_144">new object[] {"", "", "", "", ""}</mca:CSharpValue>
+                        </InArgument>
+                      </ui:AddDataRow.ArrayRow>
+                      <ui:AddDataRow.DataTable>
+                        <InOutArgument x:TypeArguments="sd:DataTable">
+                          <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_101">io_outputDataTable</mca:CSharpReference>
+                        </InOutArgument>
+                      </ui:AddDataRow.DataTable>
+                    </ui:AddDataRow>
+                  </Sequence>
+                </Sequence>
+              </ActivityAction>
+            </ui:ForEachRow.Body>
+            <ui:ForEachRow.DataTable>
+              <InArgument x:TypeArguments="sd:DataTable">
+                <mca:CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_120">in_movieDataTable</mca:CSharpValue>
+              </InArgument>
+            </ui:ForEachRow.DataTable>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:ForEachRow>
+        </Sequence>
+      </ActivityAction>
+    </uix:NApplicationCard.Body>
+    <uix:NApplicationCard.TargetApp>
+      <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAdVJREFUWEftlDssQ1EYx69q7+2tPt2iJjERLJV4LMSgBq9OWBjaREKICBI0MZSQVEMIDQORWiRKjBUbJWHvZMUuwfy53znpfbSJ3EgwOMMv53/O7fm+X865vdzHnQ/+EibABJgAE2ACBQLHyy4ItPAwGLDCzYFEMhLqF+HlslyZI9mUVzfvauUhErbDW6YCJodsZC0+7dDVz6dAIDpmB47jwCeZ4DzuIRkRBQ5uDyVljtwn1bnHUaTkkzU3NDdYSA7L4vk9tBgWQGJTDt1cK5De8YC5mOatWacigCeXirkJ77cVul6IIQHeQgvjkeJJYEa0AleJUrBZ6SloBQRe/f3KuF3XCzEkUFNVTEarXKyu2qwU/EqgqZ4KDHeLEOwQSO5rF3S9EEMC/lozVHpNJPe00WKIkRMIB0UC5l55b34/QwKNskCbnycZ324ckXyB3PX8iAC+TJg3Z9QXUSuwNEr3Idtz6hWMyFcw0Gkl+dtXgAKrE7TxxQZdQ7QCOUwmDu6OJOUELGb12WKoRNcLKRB4OJZgL+KEZNQFjxdlJKfW3ZA99ZL8lC4nI/Kcps9z7MvgfqxzFneTtYz8MUssOGF33gmv1wb+hr8NE2ACTIAJ/HcBH3wCnyEaX70T9tEAAAAASUVORK5CYII=" InformativeScreenshot="3ee7fe4cb1c4e33f571b358bd07cf8a1.png" Selector="&lt;html app='chrome.exe' title='*IMDb*' /&gt;" Url="https://www.imdb.com/" />
+    </uix:NApplicationCard.TargetApp>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+  </uix:NApplicationCard>
+</Activity>
